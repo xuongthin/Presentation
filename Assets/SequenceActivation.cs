@@ -21,5 +21,12 @@ public class SequenceActivation : MonoBehaviour
             Sequence[_id].SetActive(true);
             _id++;
         }
+
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            if (_id - 1 < 0) return;
+            Sequence[_id].SetActive(false);
+            _id--;
+        }
     }
 }
