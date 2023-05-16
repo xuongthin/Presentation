@@ -8,6 +8,7 @@ public class FloatValueController : MaterialController
     public float Value;
     public Slider Slider;
     public TMPro.TextMeshProUGUI Text;
+    public TMPro.TextMeshPro Text3d;
 
     private void Start()
     {
@@ -41,6 +42,11 @@ public class FloatValueController : MaterialController
         {
             var roundedValue = Math.Round(Value, 2, MidpointRounding.AwayFromZero);
             Text.text = roundedValue.ToString(CultureInfo.InvariantCulture);
+        }
+        if (Text3d != null)
+        {
+            var roundedValue = Math.Round(Value, 2, MidpointRounding.AwayFromZero);
+            Text3d.text = roundedValue.ToString(CultureInfo.InvariantCulture);
         }
     }
 }
