@@ -643,9 +643,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -219.99996948242188,
-            "y": 1009.0,
-            "width": 207.99998474121095,
+            "x": 172.0,
+            "y": 952.0,
+            "width": 208.00006103515626,
             "height": 302.0
         }
     },
@@ -858,9 +858,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -420.0,
-            "y": 1209.0,
-            "width": 105.00003051757813,
+            "x": -465.0,
+            "y": 1202.0,
+            "width": 105.0,
             "height": 34.0
         }
     },

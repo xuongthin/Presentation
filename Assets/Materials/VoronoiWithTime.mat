@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_ChladniPlate
-  m_Shader: {fileID: -6465566751694194690, guid: e2619ce73d5fd884a95d89e56efe2e92,
+  m_Name: VoronoiWithTime
+  m_Shader: {fileID: -6465566751694194690, guid: d13b49f332b65c44ea9578a40c8944be,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -37,13 +37,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors:
-    - _EigenValues: {r: 5, g: 5, b: 0, a: 0}
-    - _Eigenvalues: {r: 5, g: 5, b: 0, a: 0}
-    - _Smoothstep: {r: 1, g: 0, b: 0, a: 0}
-    - _VibrationModes: {r: 4, g: 3, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &8403087710143642205
+--- !u!114 &3582012036749237103
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

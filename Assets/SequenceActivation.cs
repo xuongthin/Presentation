@@ -15,14 +15,14 @@ public class SequenceActivation : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
         {
             if (_id >= Sequence.Length) return;
             Sequence[_id].SetActive(true);
             _id++;
         }
 
-        if (Input.GetKeyDown(KeyCode.Backspace))
+        if (Input.GetMouseButtonDown(1))
         {
             if (_id - 1 < 0) return;
             Sequence[_id].SetActive(false);
